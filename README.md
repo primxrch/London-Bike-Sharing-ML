@@ -15,3 +15,6 @@ Upon model training via a **Random Forest Regressor**, feature importance evalua
 ## 📊 Repository Structure
 - `notebooks/`: Contains the complete data inspection, cleaning, and model pipeline notebook.
 - `visualizations/`: Contains saved evaluation graphs (`temperature_vs_rentals.png` and `feature_importances.png`).
+## 📊 Dataset & Requirements
+- **Data Source:** [Kaggle - London Bike Sharing Dataset](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset)
+- **Logistics:** Due to GitHub file size limitations, the raw `london_merged.csv` file is ignored locally using `.gitignore`. To replicate this pipeline, download the dataset from the Kaggle link above and place it directly into your root directory.
